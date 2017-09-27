@@ -6,7 +6,7 @@ class Set
     #message is used to display input first/second file
     puts message
     file = gets.chomp
-    file = "#{file}.CSV"
+    file = "#{file}.csv"
     file.to_s
     set = Hash.new
     file = File.open(file, "r+").each_line do |line|
