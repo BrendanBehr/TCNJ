@@ -159,7 +159,7 @@ class Subscriber
         end
       when 7
         #Gives the user the ability to print whichever set they want to see (original, union, intersection or cartesian)
-        puts "Select a set to print:\n1) The original set\n2) The union set\n3) The intersection set\n4)The cartesian set"
+        puts "Select a set to print:\n1) The original set\n2) The union set\n3) The intersection set\n4) The cartesian set"
         printChoice = Integer(gets.chomp.to_i)
         printSet = Hash.new
         case printChoice
